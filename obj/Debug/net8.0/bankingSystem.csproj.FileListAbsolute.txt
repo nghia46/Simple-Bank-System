@@ -1,0 +1,17 @@
+C:\Users\Administrator\Desktop\bankingSystem\bin\Debug\net8.0\bankingSystem.exe
+C:\Users\Administrator\Desktop\bankingSystem\bin\Debug\net8.0\bankingSystem.deps.json
+C:\Users\Administrator\Desktop\bankingSystem\bin\Debug\net8.0\bankingSystem.runtimeconfig.json
+C:\Users\Administrator\Desktop\bankingSystem\bin\Debug\net8.0\bankingSystem.dll
+C:\Users\Administrator\Desktop\bankingSystem\bin\Debug\net8.0\bankingSystem.pdb
+C:\Users\Administrator\Desktop\bankingSystem\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\bankingSystem\obj\Debug\net8.0\bankingSystem.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\bankingSystem\obj\Debug\net8.0\bankingSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\bankingSystem\obj\Debug\net8.0\bankingSystem.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\bankingSystem\obj\Debug\net8.0\bankingSystem.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\bankingSystem\obj\Debug\net8.0\bankingSystem.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\bankingSystem\obj\Debug\net8.0\bankingSystem.csproj.CopyComplete
+C:\Users\Administrator\Desktop\bankingSystem\obj\Debug\net8.0\bankingSystem.dll
+C:\Users\Administrator\Desktop\bankingSystem\obj\Debug\net8.0\refint\bankingSystem.dll
+C:\Users\Administrator\Desktop\bankingSystem\obj\Debug\net8.0\bankingSystem.pdb
+C:\Users\Administrator\Desktop\bankingSystem\obj\Debug\net8.0\bankingSystem.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\bankingSystem\obj\Debug\net8.0\ref\bankingSystem.dll
