@@ -3,12 +3,24 @@
     "BankNumber": "154977419773",
     "Username": "nghia",
     "Password": "1",
-    "Balance": 800.00
+    "Balance": 3060.00
   },
   {
     "BankNumber": "220011751484",
     "Username": "long",
     "Password": "1",
-    "Balance": 267.23
+    "Balance": 1267.23
+  },
+  {
+    "BankNumber": "619843641838",
+    "Username": "Triet",
+    "Password": "123",
+    "Balance": 540.0
+  },
+  {
+    "BankNumber": "477261515964",
+    "Username": "nghia0406",
+    "Password": "12345678",
+    "Balance": 3000.0
   }
 ]

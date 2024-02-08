@@ -9,7 +9,7 @@ public class LoginMenu
         int choice;
         do
         {
-            Console.WriteLine("Welcome to the Simple Banking System!");
+            Console.WriteLine("\nWelcome to the Simple Banking System!");
             Console.WriteLine("1. Login");
             Console.WriteLine("2. Create account");
             Console.WriteLine("3. Exit");
@@ -20,28 +20,22 @@ public class LoginMenu
                 switch (choice)
                 {
                     case 1:
-                        Console.Write("Username: ");
-                        var usernameLogin = Console.ReadLine()?.Trim();
-                        Console.Write("Password: ");
-                        var passwordLogin = Console.ReadLine()?.Trim();
+                        var usernameLogin = Tools.ValidateString("Username: ",0);
+                        var passwordLogin = Tools.ValidateString("Password: ",0);
                         if (AccountService.Login(usernameLogin, passwordLogin))
                         {
                             var mainMenu = new Menu(AccountService.GetAccount(usernameLogin, passwordLogin));
                             mainMenu.LoadMainMenu();
                         }
-
-                        break;
+                        break;  
                     case 2:
                         do
                         {
-                            Console.Write("Username: ");
-                            var username = Console.ReadLine()?.Trim();
-                            Console.Write("Password: ");
-                            var password = Console.ReadLine()?.Trim();
+                            var username = Tools.ValidateString("Username: ",8);
+                            var password = Tools.ValidateString("Password: ",8);
                             if (AccountService.CreateAccount(username, password))
                                 break;
                         } while (true);
-
                         break;
                     case 3:
                         Console.WriteLine("Exiting the application. Goodbye!");

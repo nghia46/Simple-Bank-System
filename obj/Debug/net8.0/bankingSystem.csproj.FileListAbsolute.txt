@@ -15,3 +15,4 @@ C:\Users\Administrator\Desktop\bankingSystem\obj\Debug\net8.0\refint\bankingSyst
 C:\Users\Administrator\Desktop\bankingSystem\obj\Debug\net8.0\bankingSystem.pdb
 C:\Users\Administrator\Desktop\bankingSystem\obj\Debug\net8.0\bankingSystem.genruntimeconfig.cache
 C:\Users\Administrator\Desktop\bankingSystem\obj\Debug\net8.0\ref\bankingSystem.dll
+C:\Users\Administrator\Desktop\bankingSystem\obj\Debug\net8.0\bankingSystem.sourcelink.json

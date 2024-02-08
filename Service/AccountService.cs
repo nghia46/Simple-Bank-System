@@ -28,7 +28,7 @@ public static class AccountService
             var account = _accounts.FirstOrDefault(acc => acc.BankNumber == bankNumber);
             if (account != null)
             {
-                Console.WriteLine("Successfully deposit : +" + amount + "$");
+                Console.WriteLine($"Successfully deposit : +{amount}$");
                 var updatedAccount = account with { Balance = account.Balance + amount };
                 var index = _accounts.IndexOf(account);
                 _accounts[index] = updatedAccount;
@@ -36,8 +36,6 @@ public static class AccountService
                 return true;
             }
         }
-
-        Console.WriteLine("Account not found");
         return false;
     }
 
@@ -52,7 +50,7 @@ public static class AccountService
                 // Check if the account has sufficient balance for the withdrawal
                 if (account.Balance >= amount)
                 {
-                    Console.WriteLine("Successfully withdrawn");
+                    Console.WriteLine($"Successfully withdrawn -{amount}$");
 
                     // Create a new AccountDto with the updated balance after withdrawal
                     var updatedAccount = account with { Balance = account.Balance - amount };
@@ -184,6 +182,9 @@ public static class AccountService
             var account = _accounts.FirstOrDefault(acc => acc.BankNumber == bankNumber);
             if (account == null) return null;
             return account.Username;
+        }else
+        {
+            System.Console.WriteLine($"Account with {bankNumber} not found!");
         }
 
         return null;
@@ -222,10 +223,13 @@ public static class AccountService
                 destinationAccount with { Balance = destinationAccount.Balance + transferAmount };
             var destinationAccountIndex = _accounts.IndexOf(destinationAccount);
             _accounts[destinationAccountIndex] = destinationAccountAfterDeposit;
+        }else
+        {
+            Console.WriteLine("The destination account not found!");
         }
 
         SaveAccountsToDatabase();
-
+        System.Console.WriteLine($"Successfully transfers -{transferAmount}$");
         return true;
     }
 }
