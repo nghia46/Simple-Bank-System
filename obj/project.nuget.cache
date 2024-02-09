@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KuE/nlQL+vnzDvtWYbEL83Y7q1RKH/24tNwXdLvlRbIZCV7ALsfO9Fv8tfDjQieYG25Y3mP0gsLcB6kOXgxt5w==",
+  "dgSpecHash": "R8qQEwbKr1l7d5cfFLEKHZA5uoinwU4X1gzUedRb/7h7XzB5BZrrlaJvHFC6E43mhvxGVvXpzvo3UxKqBQtilQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\bankingSystem\\bankingSystem.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\BankingApp\\bankingSystem\\bankingSystem.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []

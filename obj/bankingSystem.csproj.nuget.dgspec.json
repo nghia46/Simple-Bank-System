@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Desktop\\bankingSystem\\bankingSystem.csproj": {}
+    "C:\\Users\\Administrator\\Desktop\\BankingApp\\bankingSystem\\bankingSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Desktop\\bankingSystem\\bankingSystem.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\BankingApp\\bankingSystem\\bankingSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\bankingSystem\\bankingSystem.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\BankingApp\\bankingSystem\\bankingSystem.csproj",
         "projectName": "bankingSystem",
-        "projectPath": "C:\\Users\\Administrator\\Desktop\\bankingSystem\\bankingSystem.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\BankingApp\\bankingSystem\\bankingSystem.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Desktop\\bankingSystem\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\BankingApp\\bankingSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Apps\\CodeApp\\IDE\\Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.5, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
